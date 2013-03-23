@@ -221,7 +221,7 @@ public class DialogEnvoiCreation extends JDialog {
                     // gestion de l'envoi au FTP
                     try {
                         ConnexionFTP ftpClient = new ConnexionFTP();
-                        ftpClient.connect("ftpperso.free.fr", 21, "imagework", "123456");
+                        ftpClient.connect("ftpperso.free.fr", 21, "imagework", "<pzdxotffa");
                         ftpClient.bin();
                         ftpClient.cwd("gallery");
                         ftpClient.cwd(((String) typeField.getSelectedItem()).toLowerCase());
